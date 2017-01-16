@@ -1,0 +1,11 @@
+-What happens when you initialize a repository? Why do you need to do it?
+
+Quando inizializzo una repository viene creata una cartella .git . Questa cartella conterrà tutti 
+i metadati della quale fanno parte anche le commits.
+
+-How is the staging area different from the working directory and the repository? 
+What value do you think it offers? 
+
+staging area è la parte che tiene conto dei file su cui sto lavorando e mi permette successivamente 
+di fare da tramite tra la working area e la repository vera e propria. E' utile perché ogni
+file contenuto in essa viene trasferito in blocco alla repository. 
