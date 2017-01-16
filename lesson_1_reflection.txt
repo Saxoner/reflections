@@ -1,0 +1,38 @@
+-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Apro il terminale usando la funzione diff -u <testo1> <testo2> per vedere la differenza tra i due codici.
+
+
+-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+ripristinando e confrontando le sessioni posso vedere dove ho commesso errori e/o dove ho
+dimenticato del codice e in caso riprendere i pezzi funzionanti. Ho inoltre un punto da dove ripartire
+nel caso perdessi il codice.
+
+-What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+I pro sono che è più elastico nel senso che i salvataggi manuali sono eseguiti solamente
+quando ci sono cambiamenti significativi nel codice, non vengono fatti salvataggi inutile e 
+c'è flessibilità sui tempi di commits.
+I contro è che essendo gestiti dal programmatore son più soggetti a dimenticanze,sviste o
+black out pc.Inoltre essendo i tempi di salvataggio in mano ad un umano questo deve essere in 
+grado di capire quando vale la pena committare un lavoro o no(Generalmente dopo un cambio logico nel codice).
+
+-Why do you think some version control systems, like Git, allow saving multiple files in 
+one commit, while others, like Google Docs, treat each file separately?
+
+per questioni di spazio forse(boh) 
+
+-How can you use the commands git log and git diff to view the history of files?
+
+git log serve per vedere nella repository tutti i commits salvati con i loro dettagli( id, data e ora, 
+chi ha salvato, e note varie). git diff <id_1> <id_2> serve per trovare le differenze tra 2 commits.
+
+-How might using version control make you more confident to make changes that could break something?
+
+perchè possiamo sempre ripristinare una versione precedente al bug comparso con l'ultima.
+
+-Now that you have your workspace set up, what do you want to try using Git for?
+
+Voglio provare a sbizzarrirmi con i vari codici e vorrei impararlo a usare meglio.
