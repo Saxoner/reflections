@@ -8,3 +8,7 @@ Because sometimes you may want to test something before publish it or you want t
 -Describe the differences between forks, clones, and branches. When would you use one instead of another?
 branch crea all'interno della repository un "braccio" che partendo dall'originale sviluppa funzioni differenti e che in caso viene ricollegato tramite merge al file principale. Clone crea una copia della repository tale e quale da remoto a locale con annesse commits.
 Fork crea una copia virtuale della repository che successivamente potrà essere copiata in locale. la copia non andrà a intaccare l'originale.
+
+-What is the benefit of having a copy of the last known state of the remote stored locally?
+Il befenicio è l'avere un punto di ripristino in primis nel caso qualcosa vada storto e poi è comodo per la collaborazione sapere
+il punto in cui uno è ariivato.
