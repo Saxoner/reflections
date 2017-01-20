@@ -4,3 +4,7 @@ I should create a remote repository when I have to collaborate with someone or I
 
 -Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Because sometimes you may want to test something before publish it or you want to create a branch that won't be accessible to the others.
+
+-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+branch crea all'interno della repository un "braccio" che partendo dall'originale sviluppa funzioni differenti e che in caso viene ricollegato tramite merge al file principale. Clone crea una copia della repository tale e quale da remoto a locale con annesse commits.
+Fork crea una copia virtuale della repository che successivamente potrà essere copiata in locale. la copia non andrà a intaccare l'originale.
