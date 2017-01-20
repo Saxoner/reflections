@@ -12,3 +12,7 @@ Fork crea una copia virtuale della repository che successivamente potrà essere 
 -What is the benefit of having a copy of the last known state of the remote stored locally?
 Il befenicio è l'avere un punto di ripristino in primis nel caso qualcosa vada storto e poi è comodo per la collaborazione sapere
 il punto in cui uno è ariivato.
+
+-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Bisognerebbe sempre stare in contatto via email o sms sarebbe scomodo perchè non riusciresti mai a vedere il codice degli altri collaboratori 
+e quindi trovarne gli errori.
